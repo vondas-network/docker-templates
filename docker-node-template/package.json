@@ -1,0 +1,37 @@
+{
+    "name": "docker-node-template",
+    "version": "0.0.1",
+    "description": "A dockerize NodeJS API template",
+    "main": "app.js",
+    "scripts": {
+        "prod": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Christopher Konopka",
+    "license": "ISC",
+    "dependencies": {
+        "@vondas/viewfinder": "1.0.4",
+        "abi-decoder": "^2.4.0",
+        "axios": "^0.24.0",
+        "body-parser": "^1.20.1",
+        "cfonts": "^3.1.1",
+        "command-line-args": "^5.2.0",
+        "etherscan-api": "^10.0.5",
+        "exec": "^0.2.1",
+        "exec-sh": "^0.4.0",
+        "express": "^4.18.2",
+        "express-basic-auth": "^1.2.1",
+        "line-reader": "^0.4.0",
+        "mongodb": "^4.13.0",
+        "nodemon": "^2.0.20",
+        "ohta": "0.0.4",
+        "pino": "^8.8.0",
+        "randexp": "^0.5.3",
+        "txt-file-to-json": "^3.0.6",
+        "uuid": "^9.0.0",
+        "web3": "^1.6.1",
+        "winston": "^3.8.2",
+        "yargs": "^17.3.1"
+    }
+}
