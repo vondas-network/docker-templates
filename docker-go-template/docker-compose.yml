@@ -1,0 +1,10 @@
+version: '3'
+services:
+  go-server:
+    build: 
+        context: .
+        dockerfile: Dockerfile
+    container_name: 'docker-go-template'
+    restart: always
+    ports:
+      - "7000:7000"
